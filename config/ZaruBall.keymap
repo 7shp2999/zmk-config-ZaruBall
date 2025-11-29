@@ -156,11 +156,11 @@
             display-name = "Raise";
             sensor-bindings = <&inc_dec_kp LA(F2) LA(F1)>;
             bindings = <
-&trans  &kp AT_SIGN  &kp HASH  &kp DOLLAR  &kp BACKSLASH     &kp PERCENT                           &kp NUMBER_7   &kp N8        &kp NUMBER_9  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
-&trans  &none        &none     &none       &kp LEFT_BRACKET  &kp RIGHT_BRACKET                     &kp NUMBER_4   &kp N5        &kp NUMBER_6  &kp LESS_THAN         &kp GREATER_THAN       &trans
-&trans  &none        &none     &none       &kp TILDE         &kp UNDER          &dual_parenthesis  &dual_bracket  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3          &kp AMPERSAND          &kp CARET     &trans
-&trans  &none        &none     &kp PIPE    &kp PIPE          &kp COLON          &kp SLASH          &trans         &kp DOT       &kp NUMBER_0  &kp EQUAL             &kp BACKSLASH          &kp QUESTION  &trans
-&trans               &none     &trans      &trans            &trans             &trans             &kp ESCAPE     &kp DEL                                                                  &trans
+&trans  &kp AT_SIGN      &kp HASH           &kp DOLLAR  &kp BACKSLASH     &kp PERCENT                           &kp NUMBER_7   &kp N8        &kp NUMBER_9  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
+&trans  &kp QUESTION     &kp DOUBLE_QUOTES  &kp GRAVE   &kp LEFT_BRACKET  &kp RIGHT_BRACKET                     &kp NUMBER_4   &kp N5        &kp NUMBER_6  &kp LESS_THAN         &kp GREATER_THAN       &trans
+&trans  &kp EXCLAMATION  &kp SINGLE_QUOTE   &none       &kp TILDE         &kp UNDER          &dual_parenthesis  &dual_bracket  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3          &kp AMPERSAND          &kp CARET     &trans
+&trans  &kp ASTRK        &none              &none       &kp PIPE          &kp COLON          &kp SLASH          &trans         &kp DOT       &kp NUMBER_0  &kp EQUAL             &kp BACKSLASH          &kp QUESTION  &trans
+&trans                   &none              &trans      &trans            &trans             &trans             &kp ESCAPE     &kp DEL                                                                  &trans
             >;
         };
 
