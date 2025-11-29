@@ -154,11 +154,11 @@
             display-name = "Raise";
             sensor-bindings = <&inc_dec_kp LA(F2) LA(F1)>;
             bindings = <
-&trans  &none  &none  &none   &none             &none                      &kp NUMBER_7  &kp N8        &kp NUMBER_9  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
-&trans  &none  &none  &none   &kp LEFT_BRACKET  &kp RIGHT_BRACKET          &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp LESS_THAN         &kp GREATER_THAN       &trans
-&trans  &none  &none  &none   &none             &kp UNDER          &none   &none         &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3          &kp AMPERSAND          &kp CARET     &trans
-&trans  &none  &none  &none   &none             &kp COLON          &none   &none         &kp DOT       &kp NUMBER_0  &kp EQUAL             &kp BACKSLASH          &kp QUESTION  &trans
-&trans         &none  &trans  &trans            &trans             &trans  &kp ESCAPE    &kp DEL                                                                  &trans
+&trans  &none  &none  &none     &none             &none                      &kp NUMBER_7  &kp N8        &kp NUMBER_9  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
+&trans  &none  &none  &none     &kp LEFT_BRACKET  &kp RIGHT_BRACKET          &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp LESS_THAN         &kp GREATER_THAN       &trans
+&trans  &none  &none  &none     &kp TILDE         &kp UNDER          &none   &none         &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3          &kp AMPERSAND          &kp CARET     &trans
+&trans  &none  &none  &kp PIPE  &kp SLASH         &kp COLON          &none   &none         &kp DOT       &kp NUMBER_0  &kp EQUAL             &kp BACKSLASH          &kp QUESTION  &trans
+&trans         &none  &trans    &trans            &trans             &trans  &kp ESCAPE    &kp DEL                                                                  &trans
             >;
         };
 
