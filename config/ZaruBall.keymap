@@ -196,7 +196,7 @@
 &trans           &none  &none  &none   &mkp LCLK          &mkp RCLK                          &none          &none     &none  &none  &mkp LCLK       &mkp RCLK
 &trans           &none  &none  &none   &mkp_exit_AML MB4  &mkp_exit_AML MB5  &msc SCRL_UP    &kp PAGE_UP    &kp HOME  &none  &none  &msc SCRL_UP    &mkp MB4         &mkp MB5
 &trans           &none  &none  &none   &msc SCRL_LEFT     &msc SCRL_RIGHT    &msc SCRL_DOWN  &kp PAGE_DOWN  &kp END   &none  &none  &msc SCRL_DOWN  &msc SCRL_LEFT   &msc SCRL_RIGHT
-&none                   &none  &trans  &trans             &trans             &trans          &trans         &trans                                  &trans
+&trans                  &none  &trans  &trans             &trans             &trans          &trans         &trans                                  &trans
             >;
         };
     };
