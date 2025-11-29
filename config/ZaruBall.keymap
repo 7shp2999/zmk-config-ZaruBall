@@ -130,11 +130,11 @@
             display-name = "Base";
             sensor-bindings = <&scroll_down_up>;
             bindings = <
-&kp ESC         &kp N1  &kp N2      &kp N3        &kp N4              &kp N5                           &kp NUMBER_6  &kp N7           &kp N8  &kp N9  &kp N0  &kp PLUS
-&kp LCTRL       &kp Q   &kp L       &kp U         &kp COMMA           &kp PERIOD                       &kp F         &kp W            &kp R   &kp Y   &kp P   &kp MINUS
-&kp LEFT_SHIFT  &kp E   &kp I       &kp A         &kp O               &kp MINUS        &kp DOWN        &kp UP_ARROW  &kp K            &kp T   &kp N   &kp S   &kp H      &kp ASTERISK
-&kp LEFT_ALT    &kp Z   &kp X       &kp C         &kp V               &kp SEMICOLON    &kp LEFT_ARROW  &kp RIGHT     &kp G            &kp D   &kp M   &kp J   &kp B      &kp SLASH
-&kp TAB                 &kp C_MUTE  &kp LEFT_WIN  &lt 3 LEFT_CONTROL  &lt 2 LA(GRAVE)  &lt 1 SPACE     &lt 1 RET     &lt 0 BACKSPACE                          &kp RCTRL
+&kp ESC         &kp N1  &kp N2  &kp N3        &kp N4              &kp N5                           &kp NUMBER_6  &kp N7           &kp N8  &kp N9  &kp N0  &kp PLUS
+&kp LCTRL       &kp Q   &kp L   &kp U         &kp COMMA           &kp PERIOD                       &kp F         &kp W            &kp R   &kp Y   &kp P   &kp MINUS
+&kp LEFT_SHIFT  &kp E   &kp I   &kp A         &kp O               &kp MINUS        &kp DOWN        &kp UP_ARROW  &kp K            &kp T   &kp N   &kp S   &kp H      &kp ASTERISK
+&kp LEFT_ALT    &kp Z   &kp X   &kp C         &kp V               &kp SEMICOLON    &kp LEFT_ARROW  &kp RIGHT     &kp G            &kp D   &kp M   &kp J   &kp B      &kp SLASH
+&kp TAB                 &none   &kp LEFT_WIN  &lt 3 LEFT_CONTROL  &lt 2 LA(GRAVE)  &lt 1 SPACE     &lt 1 RET     &lt 0 BACKSPACE                          &kp RCTRL
             >;
         };
 
@@ -142,11 +142,11 @@
             display-name = "Mouse";
             sensor-bindings = <&scroll_down_up>;
             bindings = <
-&none   &none  &none   &none   &none              &none                              &none          &none     &none  &none  &none           &none
-&none   &none  &none   &none   &mkp LCLK          &mkp RCLK                          &none          &none     &none  &none  &mkp LCLK       &mkp RCLK
-&none   &none  &none   &none   &mkp_exit_AML MB4  &mkp_exit_AML MB5  &msc SCRL_UP    &kp PAGE_UP    &kp HOME  &none  &none  &msc SCRL_UP    &mkp MB4        &mkp MB5
-&trans  &none  &none   &none   &msc SCRL_LEFT     &msc SCRL_RIGHT    &msc SCRL_DOWN  &kp PAGE_DOWN  &kp END   &none  &none  &msc SCRL_DOWN  &msc SCRL_LEFT  &msc SCRL_RIGHT
-&none          &trans  &trans  &trans             &trans             &trans          &trans         &trans                                  &trans
+&none   &none  &none  &none   &none              &none                              &none          &none     &none  &none  &none           &none
+&none   &none  &none  &none   &mkp LCLK          &mkp RCLK                          &none          &none     &none  &none  &mkp LCLK       &mkp RCLK
+&none   &none  &none  &none   &mkp_exit_AML MB4  &mkp_exit_AML MB5  &msc SCRL_UP    &kp PAGE_UP    &kp HOME  &none  &none  &msc SCRL_UP    &mkp MB4        &mkp MB5
+&trans  &none  &none  &none   &msc SCRL_LEFT     &msc SCRL_RIGHT    &msc SCRL_DOWN  &kp PAGE_DOWN  &kp END   &none  &none  &msc SCRL_DOWN  &msc SCRL_LEFT  &msc SCRL_RIGHT
+&none          &none  &trans  &trans             &trans             &trans          &trans         &trans                                  &trans
             >;
         };
 
@@ -166,11 +166,11 @@
             display-name = "Lower";
             sensor-bindings = <&inc_dec_kp RIGHT LEFT>;
             bindings = <
-&trans  &kp F1   &kp F2     &kp F3    &kp F4     &kp F5               &kp LA(F2)  &kp KP_N7     &kp KP_N8   &kp KP_N9  &kp KP_SLASH     &kp KP_NUMLOCK
-&trans  &kp F6   &kp F7     &kp F8    &kp F9     &kp F10              &kp LA(F1)  &kp KP_N4     &kp KP_N5   &kp KP_N6  &kp KP_MULTIPLY  &none
-&trans  &kp F11  &kp F12    &kp UP    &none      &kp HOME  &kp PG_UP  &kp LPAR    &kp C_VOL_UP  &kp KP_N1   &kp KP_N2  &kp KP_N3        &kp KP_MINUS    &none
-&trans  &none    &kp LEFT   &kp DOWN  &kp RIGHT  &kp END   &kp PG_DN  &kp RPAR    &kp C_VOL_DN  &kp KP_DOT  &kp KP_N0  &kp KP_EQUAL     &kp KP_PLUS     &none
-&trans           &kp RSHFT  &trans    &trans     &trans    &trans     &kp ESCAPE  &kp DEL                                               &studio_unlock
+&trans  &kp F1   &kp F2   &kp F3  &kp F4  &kp F5           &none       &none    &none  &none  &none  &trans
+&trans  &kp F6   &kp F7   &kp F8  &kp F9  &kp F10          &none       &none    &none  &none  &none  &trans
+&trans  &kp F11  &kp F12  &none   &none   &none    &none   &none       &none    &none  &none  &none  &none   &trans
+&trans  &none    &none    &none   &none   &none    &none   &none       &none    &none  &none  &none  &none   &trans
+&trans           &none    &trans  &trans  &trans   &trans  &kp ESCAPE  &kp DEL                       &trans
             >;
         };
 
@@ -178,11 +178,11 @@
             display-name = "Adjyst";
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
             bindings = <
-&trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4          &bt BT_CLR_ALL  &none           &none  &none  &none  &none
-&trans  &none         &none         &none         &none         &none                 &bt BT_CLR      &none           &none  &none  &none  &none
-&trans  &none         &none         &none         &none         &none         &none   &ind_bat        &out OUT_TOG    &none  &none  &none  &none   &none
-&trans  &none         &none         &none         &none         &none         &none   &ind_con        &studio_unlock  &none  &none  &none  &none   &none
-&trans                &kp C_MUTE    &trans        &trans        &trans        &trans  &trans          &kp DEL                              &trans
+&trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4          &bt BT_CLR_ALL     &none           &none  &none  &none  &none
+&trans  &none         &none         &none         &none         &none                 &bt BT_CLR         &none           &none  &none  &none  &none
+&trans  &none         &none         &none         &none         &none         &none   &kp C_VOLUME_UP    &out OUT_TOG    &none  &none  &none  &none   &none
+&trans  &none         &none         &none         &none         &none         &none   &kp C_VOLUME_DOWN  &studio_unlock  &none  &none  &none  &none   &none
+&trans                &kp C_MUTE    &trans        &trans        &trans        &trans  &kp ESCAPE         &kp DEL                              &trans
             >;
         };
     };
