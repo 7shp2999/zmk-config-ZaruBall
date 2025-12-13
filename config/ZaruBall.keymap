@@ -168,7 +168,7 @@
 &to_layer_0 LALT    &to_layer_0 Q   &to_layer_0 W   &to_layer_0 E   &mkp LCLK       &mkp RCLK                        &to_layer_0 Y   &to_layer_0 U   &to_layer_0 I   &to_layer_0 O      &mkp LCLK           &mkp RCLK
 &to_layer_0 CAPS    &to_layer_0 A   &to_layer_0 S   &to_layer_0 D   &mkp MB4        &mkp MB5         &msc SCRL_UP    &msc SCRL_UP    &to_layer_0 H   &to_layer_0 J   &to_layer_0 K      &to_layer_0 L       &mkp MB4                 &mkp MB5
 &to_layer_0 LSHIFT  &to_layer_0 Z   &to_layer_0 X   &to_layer_0 C   &msc SCRL_LEFT  &msc SCRL_RIGHT  &msc SCRL_DOWN  &msc SCRL_DOWN  &to_layer_0 N   &to_layer_0 M   &to_layer_0 COMMA  &to_layer_0 PERIOD  &msc SCRL_LEFT           &msc SCRL_RIGHT
-&to_layer_0 LCTRL                   &trans          &trans          &trans          &trans           &trans          &trans          &trans                                                                 &to_layer_0 DOWN_ARROW
+&to_layer_0 LCTRL                   &trans          &trans          &trans          &trans           &trans          &trans          &kp DELETE                                                             &to_layer_0 DOWN_ARROW
             >;
         };
 
